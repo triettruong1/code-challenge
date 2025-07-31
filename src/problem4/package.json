@@ -1,0 +1,14 @@
+{
+	"name": "three-ways-to-sum-to-n",
+	"version": "1.0.0",
+	"description": "code-challenge",
+	"main": "index.js",
+	"scripts": {
+		"testScript": "npx tsc && node ./dist/index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^5.8.3"
+	}
+}
