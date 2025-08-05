@@ -4,6 +4,7 @@ import cookieParser from "cookie-parser";
 import morgan from "morgan";
 
 import mongoose from "mongoose";
+import { rootRouter } from "./routes";
 
 export const createServer = () => {
   mongoose
@@ -25,6 +26,8 @@ export const createServer = () => {
   app.use(express.urlencoded({ extended: false }));
   app.use(cookieParser());
   app.use(express.static(path.join(__dirname, "public")));
+
+  app.use(rootRouter);
 
   return app;
 };
