@@ -1,0 +1,38 @@
+{
+  "name": "problem5",
+  "module": "ES6",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@tsconfig/node20": "^20.1.6",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.2.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0"
+  }
+}
