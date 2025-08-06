@@ -1,5 +1,5 @@
 {
-  "name": "problem5",
+  "name": "problem5-backend",
   "module": "ES6",
   "version": "0.0.0",
   "private": true,
@@ -25,6 +25,7 @@
     "@types/express": "^5.0.3",
     "@types/morgan": "^1.9.10",
     "@types/node": "^24.2.0",
+    "dotenv": "^17.2.1",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.3",
